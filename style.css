@@ -17,11 +17,64 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  border: 3px solid rgb(250, 150, 220);
   border-radius: 8px;
-  box-shadow: 20px;
-  padding: 10px;
+  box-shadow: 2em;
+  padding: 5em 3em;
+  gap: 5em;
 }
 
 h1 {
-  padding-top: 10px;
+  font-size: 2.5em;
+}
+
+h3 {
+  color: rgb(109, 153, 255);
+  font-size: 2em;
+}
+
+#seclection {
+  display: flex;
+  gap: 2em;
+}
+
+#selection button {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  /* border: 3px solid transparent */
+  font-size: 3.5em;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  border: 3px solid rgb(109, 153, 255);
+}
+
+#player-selection,
+#computer-selection {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+#result-display {
+  font-size: 2.5em;
+  border: 3px solid rgb(109, 153, 255);
+  border-radius: 0.5em;
+  padding: 10px 30px;
+}
+@media screen and (min-width: 340px) and (max-width: 760px) {
+  h1 {
+    font-size: 17px;
+    margin-top: 14px;
+  }
+
+  .container {
+    width: 40%;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
 }
