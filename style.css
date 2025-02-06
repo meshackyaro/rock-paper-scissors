@@ -6,7 +6,7 @@
 }
 
 body {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   align-items: center;
   justify-content: center;
   display: flex;
@@ -14,19 +14,21 @@ body {
 }
 
 .container {
+  height: 50%;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 3px solid rgb(250, 150, 220);
-  border-radius: 8px;
+  border-radius: 2em;
   box-shadow: 2em;
-  padding: 5em 3em;
-  gap: 5em;
+  padding: 10em 3em;
+  gap: 2em;
+  margin-inline: 50px 0 50px 0;
 }
 
 h1 {
-  font-size: 2.5em;
+  /* font-size: 2.5em; */
 }
 
 h3 {
