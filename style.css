@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+body {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: linear-gradient(to right bottom, rgb(0, 31, 131), skyblue);
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 20px;
+  padding: 10px;
+}
+
+h1 {
+  padding-top: 10px;
+}
